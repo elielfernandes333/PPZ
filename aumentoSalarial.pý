@@ -1,0 +1,5 @@
+salario = int(input('digite seu salario meu mano: '))
+aumento = int(input('Digite a porcentagem do aumento meu mano: '))
+aumento1 = ( aumento/100) * salario
+salarioNovo = salario + (salario * aumento/100)
+auemnto = print(f'seu aumento é de R$ {aumento1} e seu novo salario é de R$ {salarioNovo}')
